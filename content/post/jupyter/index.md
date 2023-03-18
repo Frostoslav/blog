@@ -1,7 +1,7 @@
 ---
-title: Display Jupyter Notebooks with Academic
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
+title: Почему мы любим собак больше, чем людей — и нормально ли это?
+subtitle: Как мы воспринимаем собак и как они воспринимают нас? Есть ли у собак разум? Что думают о них философы?
+summary: Действительно ли количество городских собачников растет из-за того, что мы чувствуем себя все более одинокими.
 authors:
   - admin
 tags: []
@@ -14,64 +14,14 @@ image:
   focal_point: ''
 ---
 
-```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
+![png](./dog.jpg)
 
-![png](./index_1_0.png)
+    Loove Dogs!
 
-```python
-print("Welcome to Academic!")
-```
+## Why?
 
-    Welcome to Academic!
+Схожесть эмоций, которые мы испытываем по отношению к животным и к собственным соплеменникам, во многом объясняет, почему тема животного настолько часто возникает в рассуждениях о природе человека — и наоборот. Когда речь заходит об установлении границ между разными категориями людей внутри человеческого рода, на выручку часто приходит образ животного. Так, например, расистская риторика сравнивает с животными отдельные категории людей, называемые «низшими расами». И наоборот, когда говорят о характере животного и манере обращения с ним, неизбежно упоминают качества, составляющие сущность человеческой природы.
 
-## Install Python and JupyterLab
+Бесконечная, ставшая почти универсальной игра перекрестными ссылками между животным началом в человеке и человеческим — в животном стала основанием для создания одной гипотезы, которая, применительно к современному обществу, пытается объяснить природу свойственной нам манеры воспринимать животных.
 
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
-
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
-
-## Create or upload a Jupyter notebook
-
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
-
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
-```
-
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
-
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:
-
-```
----
-title: My post's title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-```
-
-Edit the metadata of your post, using the [documentation](https://sourcethemes.com/academic/docs/managing-content) as a guide to the available options.
-
-To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
-
-For other tips, such as using math, see the guide on [writing content with Academic](https://wowchemy.com/docs/content/writing-markdown-latex/).
-
-## Convert notebook to Markdown
-
-```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-```
-
-## Example
-
-This post was created with Jupyter. The orginal files can be found at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter
+Гипотеза эта выдвигает ряд аргументов для объяснения причин, по которым в наши дни значительная часть людей, особенно в развитых странах, испытывает чувство эмпатии по отношению к животным вообще и к собакам в частности.
